@@ -1,4 +1,4 @@
-name: NanoWild
+name: RandomTeleport
 author: ItsGabry
 main: ItsGabry\NanoWild\Main
 api: [3.0.0]
