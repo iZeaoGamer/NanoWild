@@ -1,0 +1,13 @@
+#Range block
+range: 1000000
+
+#Array of worlds
+
+worlds:
+- world
+
+#Example
+#worlds:
+# - world
+# - faction
+# - lobby
