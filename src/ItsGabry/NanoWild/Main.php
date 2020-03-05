@@ -12,12 +12,10 @@ use pocketmine\utils\TextFormat;
 
 
 class Main extends PluginBase implements Listener {
-
     public function onEnable() {
        $this->getServer()->getPluginManager()->registerEvents($this, $this);
        $this->saveDefaultConfig();
     }
-
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool {
         switch ($command->getName()) {
             case "wild":
