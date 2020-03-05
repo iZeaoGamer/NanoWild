@@ -8,6 +8,7 @@ commands:
   wild:
     description: Teleport you at random coordinates
     usage: "/wild"
+    aliases: [randomtp]
     permission: wild.command
 
 permissions:
