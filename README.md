@@ -1,4 +1,5 @@
 NanoWild
+
 With this plugin you can teleport to random coordinates!
 
 <a href="https://poggit.pmmp.io/p/NanoWild"><img src="https://poggit.pmmp.io/shield.state/NanoWild"></a>
