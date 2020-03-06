@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener {
                         $sender->getLevel()->populateChunk($x >> 4, $z >> 4, true);
                         $sender->sendMessage(TextFormat::GREEN . "Wait 10 seconds...");
                         $this->getScheduler()->scheduleDelayedTask(new NanoWildTask($sender, new Position($x, $y, $z)), 200);
-                        $this->getScheduler()->scheduleRepeatingTask(new TitleTask($sender, $this->getServer()->getPluginManager()->getPlugin("NanoWild")), 20);
+                        $this->getScheduler()->scheduleRepeatingTask(new TitleTask($sender, $this), 20);
                     }else{
                         $sender->sendMessage(TextFormat::RED . "You cannot do this command here!");
                     }
